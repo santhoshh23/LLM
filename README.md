@@ -20,6 +20,7 @@ Part 1 — Core Transformer Architecture
 
 
 Part 2 — Training a Tiny LLM
+
 2.1 Byte-level tokenization
 
 2.2 Dataset batching & shifting for next-token prediction
@@ -35,6 +36,7 @@ Part 2 — Training a Tiny LLM
 
 
 Part 3 — Modernizing the Architecture
+
 3.1 RMSNorm (replace LayerNorm, compare gradients & convergence)
 
 3.2 RoPE (Rotary Positional Embeddings) — theory & code
@@ -50,6 +52,7 @@ Part 3 — Modernizing the Architecture
 
 
 Part 4 — Scaling Up
+
 4.1 Switching from byte-level to BPE tokenization
 
 4.2 Gradient accumulation & mixed precision
@@ -62,6 +65,7 @@ Part 4 — Scaling Up
 
 
 Part 5 — Mixture-of-Experts (MoE)
+
 5.1 MoE theory: expert routing, gating networks, and load balancing
 
 5.2 Implementing MoE layers in PyTorch
